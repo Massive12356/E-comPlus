@@ -34,7 +34,7 @@ const CheckoutBtn = ({ products }: { products: ProductProps[] }) => {
         <button
           onClick={handleCheckout}
           type="submit"
-          className="w-full rounded-md border border-transparent bg-gray-800 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-black focus:outline-none focus:ring-2 focus:ring-skyText focus:ring-offset-2 focus:ring-offset-gray-50 duration-200"
+          className="w-full rounded-md border border-transparent bg-light_blue px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-black focus:outline-none focus:ring-2 focus:ring-skyText focus:ring-offset-2 focus:ring-offset-gray-50 duration-200"
         >
           Checkout
         </button>

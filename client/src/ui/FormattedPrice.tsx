@@ -1,7 +1,7 @@
 const FormattedPrice = ({ amount }: { amount?: number }) => {
   const formattedAmount = new Number(amount).toLocaleString("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "GHC",
     minimumFractionDigits: 2,
   });
   return <span>{formattedAmount}</span>;

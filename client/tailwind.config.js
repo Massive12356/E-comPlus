@@ -10,6 +10,10 @@ export default {
         greenText: "#1d8221",
         redText: "#E02B2B ",
         skyText: "#32BDE8",
+        blue: "#2973B2",
+        light_blue: "#608BC1",
+        deep_blue: "#133E87",
+        sea_blue: "#C6E7FF",
       },
       flex: {
         full: "0 0 100%",

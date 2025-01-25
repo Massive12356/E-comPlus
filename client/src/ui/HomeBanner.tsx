@@ -20,7 +20,7 @@ const HomeBanner = () => {
         <p className="text-base md:text-lg font-semibold leading-6 text-whiteText/90 max-w-[250px] mt-4">
           The new tech gift you are wishing for right here.
         </p>
-        <LinkButton className="w-44 flex items-center justify-center bg-whiteText text-darkText hover:bg-darkText hover:text-whiteText duration-200 mt-4" />
+        <LinkButton className="w-44 flex items-center justify-center bg-light_blue text-darkText hover:bg-blue hover:text-whiteText duration-200 mt-4" />
       </div>
     </Container>
   );

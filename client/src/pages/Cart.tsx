@@ -116,7 +116,7 @@ const Cart = () => {
           </p>
           <Link
             to={"/product"}
-            className="bg-gray-800 text-gray-200 px-8 py-4 rounded-md hover:bg-black hover:text-white duration-200 uppercase text-sm font-semibold tracking-wide"
+            className="bg-light_blue text-gray-200 px-8 py-4 rounded-md hover:bg-deep_blue hover:text-white duration-200 uppercase text-sm font-semibold tracking-wide"
           >
             go to shopping
           </Link>

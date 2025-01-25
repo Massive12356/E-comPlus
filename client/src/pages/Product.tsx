@@ -111,7 +111,7 @@ const Product = () => {
                 </p>
                 <p>
                   You are saving{" "}
-                  <span className="text-base font-semibold text-green-500">
+                  <span className="text-base font-semibold text-deep_blue">
                     <FormattedPrice
                       amount={
                         productData?.regularPrice! -
@@ -171,9 +171,9 @@ const Product = () => {
                 <AddToCartBtn
                   product={productData}
                   title="Buy now"
-                  className="bg-black/80 py-3 text-base text-gray-200 hover:scale-100 hover:text-white duration-200"
+                  className="bg-light_blue py-3 text-base text-gray-200 hover:bg-deep_blue hover:text-white duration-150"
                 />
-                <div className="bg-[#f7f7f7] p-5 rounded-md flex flex-col items-center justify-center gap-2">
+                <div className="bg-sea_blue p-5 rounded-md flex flex-col items-center justify-center gap-2">
                   <img
                     src={productPayment}
                     alt="payment"

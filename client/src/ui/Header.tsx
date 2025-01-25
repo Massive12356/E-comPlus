@@ -75,13 +75,13 @@ const Header = () => {
         </Link>
         {/* SearchBar */}
         <div className="hidden md:inline-flex max-w-3xl w-full relative">
-          <input
-            type="text"
-            onChange={(e) => setSearchText(e.target.value)}
-            value={searchText}
-            placeholder="Search products..."
-            className="w-full flex-1 rounded-full text-gray-900 text-lg placeholder:text-base placeholder:tracking-wide shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 placeholder:font-normal focus:ring-1 focus:ring-darkText sm:text-sm px-4 py-2"
-          />
+        <input type="text"
+  onChange={(e) => setSearchText(e.target.value)}
+  value={searchText}
+  placeholder="Search products..."
+  className="w-full flex-1 rounded-full text-gray-900 text-lg placeholder:text-base placeholder:tracking-wide shadow-sm ring-1 ring-inset ring-blue-300 placeholder:text-gray-400 placeholder:font-normal focus:outline-none focus:ring-2 focus:ring-light_blue focus:border-light_blue sm:text-sm px-4 py-2"
+/>
+
           {searchText ? (
             <IoClose
               onClick={() => setSearchText("")}
@@ -126,24 +126,24 @@ const Header = () => {
                 className="w-10 h-10 rounded-full object-cover"
               />
             ) : (
-              <FiUser className="hover:text-skyText duration-200 cursor-pointer" />
+              <FiUser className="hover:text-blue duration-200 cursor-pointer" />
             )}
           </Link>
           <Link to={"/favorite"} className="relative block">
-            <FiStar className="hover:text-skyText duration-200 cursor-pointer" />
+            <FiStar className="hover:text-blue duration-200 cursor-pointer" />
             <span className="inline-flex items-center justify-center bg-redText text-whiteText absolute -top-1 -right-2 text-[9px] rounded-full w-4 h-4">
               {favoriteProduct?.length > 0 ? favoriteProduct?.length : "0"}
             </span>
           </Link>
           <Link to={"/cart"} className="relative block">
-            <FiShoppingBag className="hover:text-skyText duration-200 cursor-pointer" />
+            <FiShoppingBag className="hover:text-blue duration-200 cursor-pointer" />
             <span className="inline-flex items-center justify-center bg-redText text-whiteText absolute -top-1 -right-2 text-[9px] rounded-full w-4 h-4">
               {cartProduct?.length > 0 ? cartProduct?.length : "0"}
             </span>
           </Link>
         </div>
       </div>
-      <div className="w-full bg-darkText text-whiteText">
+      <div className="w-full bg-blue text-whiteText">
         <Container className="py-2 max-w-4xl flex items-center gap-5 justify-between">
           <Menu>
             <MenuButton className="inline-flex items-center gap-2 rounded-md border border-gray-400 hover:border-white py-1.5 px-3 font-semibold text-gray-300 hover:text-whiteText">
@@ -159,7 +159,7 @@ const Header = () => {
             >
               <MenuItems
                 anchor="bottom end"
-                className="w-52 origin-top-right rounded-xl border border-white/5 bg-black p-1 text-sm/6 text-gray-300 [--anchor-gap:var(--spacing-1)] focus:outline-none hover:text-white z-50"
+                className="w-52 origin-top-right rounded-xl border border-white/5 bg-deep_blue p-1 text-sm/6 text-gray-300 [--anchor-gap:var(--spacing-1)] focus:outline-none hover:text-white z-50"
               >
                 {categories.map((item: CategoryProps) => (
                   <MenuItem key={item?._id}>

@@ -16,7 +16,7 @@ export const categories = [
   {
     _id: 1001,
     name: "TV & Audio",
-    image: "https://i.ibb.co/kM0FR2h/cat-Tv-Audio.webp",
+    image: "https://i.ibb.co/pzg8YvB/TvAudio.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvAndAudio",
@@ -24,7 +24,7 @@ export const categories = [
   {
     _id: 1002,
     name: "TV Box",
-    image: "https://i.ibb.co/71hR65V/catTvBox.webp",
+    image: "https://i.ibb.co/pJ24LQG/Tbox.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvBox",
@@ -32,7 +32,7 @@ export const categories = [
   {
     _id: 1003,
     name: "Power Tools",
-    image: "https://i.ibb.co/0V0g6Gz/cat-Powertool.webp",
+    image: "https://i.ibb.co/W5bsFd3/cat-Powertool.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "powerTools",
@@ -40,7 +40,7 @@ export const categories = [
   {
     _id: 1004,
     name: "Headphones",
-    image: "https://i.ibb.co/zST2Xdp/cat-Headphone.webp",
+    image: "https://i.ibb.co/XW06xB7/Headphones.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "headphones",
@@ -48,7 +48,7 @@ export const categories = [
   {
     _id: 1005,
     name: "Cell Phones",
-    image: "https://i.ibb.co/jgk59BL/catPhone.webp",
+    image: "https://i.ibb.co/ckdTfrv/Cell-Phones.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "cellPhones",
@@ -56,7 +56,7 @@ export const categories = [
   {
     _id: 1006,
     name: "Smart Watches",
-    image: "https://i.ibb.co/B4NKfBZ/cat-Smart-Watch.webp",
+    image: "https://i.ibb.co/s2d1rqN/Smart-Watches.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "smartWatches",
@@ -64,7 +64,7 @@ export const categories = [
   {
     _id: 1007,
     name: "Game & Video",
-    image: "https://i.ibb.co/4gwLwT2/cat-Gaming.webp",
+    image: "https://i.ibb.co/6DvYYXx/ps5.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "gameAndVideo",
@@ -72,7 +72,7 @@ export const categories = [
   {
     _id: 1008,
     name: "Robot Clean",
-    image: "https://i.ibb.co/xjpdQrr/cat-Robot-Clean.webp",
+    image: "https://i.ibb.co/x3MYR2F/RobClean.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "robotClean",
@@ -80,7 +80,7 @@ export const categories = [
   {
     _id: 1009,
     name: "Sport Watches",
-    image: "https://i.ibb.co/HdNVLzh/cat-Sport-Watch.webp",
+    image: "https://i.ibb.co/C81pYhp/cat-Sport-Watch.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "sportWatches",
@@ -88,7 +88,7 @@ export const categories = [
   {
     _id: 1010,
     name: "Tablets",
-    image: "https://i.ibb.co/qCzTx4F/cat-Tablet.webp",
+    image: "https://i.ibb.co/q97GsMh/cat-Tablet.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tablets",
@@ -96,7 +96,7 @@ export const categories = [
   {
     _id: 1011,
     name: "Computers & Laptop",
-    image: "https://i.ibb.co/74bZ8PH/cat-Computer.webp",
+    image: "https://i.ibb.co/8mn72Dv/cat-Computer.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "computersAndLaptop",
@@ -104,7 +104,7 @@ export const categories = [
   {
     _id: 1012,
     name: "Cameras & Photos",
-    image: "https://i.ibb.co/SVQVWSS/cat-Camera.webp",
+    image: "https://i.ibb.co/tXKjpmf/cat-Camera.webp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "camerasAndPhotos",
