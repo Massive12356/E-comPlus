@@ -1,4 +1,4 @@
-import React from "react";
+
 import Container from "./Container";
 import DeliveryIcon from "../assets/footerIcons/delivery.svg";
 import WarrantyIcon from "../assets/footerIcons/warranty-term-svgrepo-com.svg";
